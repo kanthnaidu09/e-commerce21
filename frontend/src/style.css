@@ -1,0 +1,91 @@
+/* Basic styles for E-Commerce project */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 1rem;
+  color: white;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.product-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.cart, .checkout {
+  padding: 2rem;
+}
+
+.cart-item {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 300px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
